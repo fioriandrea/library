@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Library</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer type="text/javascript" src="./scripts/book.js"></script>
+    <script defer type="text/javascript" src="./scripts/graphics.js"></script>
+        <script defer type="text/javascript" src="./scripts/listeners.js"></script>
+    <script defer type="text/javascript" src="./scripts/script.js"></script>
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="bookTable">
+        <div class="header">
+          <h1>My Library</h1>
+          <input type="button" value="Add Book" class="addButton" id="addBookButton">
+        </div>
+        <div class="bookList">
+          <!-- add books here with js -->
+        </div>
+      </div>
+    </div>
+
+    <form class="form" action="index.html" method="post">
+      <div class="inputGroup">
+        <label for="titleIn">Title</label>
+        <input type="text" placeholder="Harry Potter" id="titleIn" class="formIn">
+      </div>
+      <div class="inputGroup">
+        <label for="authorIn">Author</label>
+        <input type="text" placeholder="J. K. Rowling" id="authorIn" class="formIn">
+      </div>
+      <div class="inputGroup">
+        <label for="yearIn">Year Published</label>
+        <input type="number" placeholder="2001" id="yearIn" class="formIn">
+      </div>
+      <div class="inputGroup">
+        <label for="descriptionIn">Description</label>
+        <input type="text" placeholder="Harry gets to know he is a wizard" id="descriptionIn" class="formIn">
+      </div>
+      <div class="inputGroup">
+        <label for="coverIn">Link to Cover Image</label>
+        <input type="text" placeholder="www.covers.com/cover.png" id="coverIn" class="formIn">
+      </div>
+      <div class="submitGroup">
+        <input type="button" value="Cancel" id="cancel" class="transparentButton">
+        <input type="button" value="Submit" id="submit" class="transparentButton">
+      </div>
+    </form>
+  </body>
+</html>
